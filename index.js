@@ -1,11 +1,11 @@
 function calcPrompt(){
-    num1 =  Number(prompt("Write a number: "));
-    num2 = Number(prompt("Write a second number: "));
-    equationA = num1 + num2;
-    equationB = num1 - num2;
-    equationC = num1 * num2;
-    equationD = num1 / num2;
+    let num1 =  Number(prompt("Write a number: "));
     let askEquation = prompt("Write what you want to do with these two numbers.\nOptions: \'Add\' \'Subtract\' \'Devide\' \'Multiply\' \nAlso try: \'+\' \'-\' \'*\' \'/\' \nYou can also write: \'Plus\' \'Minus\'");
+    let num2 = Number(prompt("Write a second number: "));
+    let equationA = num1 + num2;
+    let equationB = num1 - num2;
+    let equationC = num1 * num2;
+    let equationD = num1 / num2;
     if(askEquation == "Add"){
         document.write(equationA);
     }
